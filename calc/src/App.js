@@ -1,7 +1,8 @@
 import './App.css';
 import {
   Title,
-  BasicFunction
+  BasicFunction,
+  BasicInteractive
 } from "./components"
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <div className="App">
       <Title/>
       <BasicFunction/>
+      <br></br>
+      <BasicInteractive/>
     </div>
   );
 }
